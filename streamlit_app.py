@@ -20,5 +20,5 @@ fruits_to_show = my_fruit_list.loc[fruits_selected]
 
 #new section to display fruityvice api response
 import requests
-fruityvice_response = requests.get("https://fruityvice.com/api/fruit/watermemlon")
+fruityvice_response = requests.get("https://fruityvice.com/api/fruit/watermelon")
 streamlit.text(fruityvice_response)
